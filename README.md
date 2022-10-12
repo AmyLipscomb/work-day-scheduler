@@ -28,4 +28,13 @@ I continued to use jQuery to use localStorage.
 
 ![LocalStorage](./assets/images/localstorage.js.png)
 
-The purpose of localstorage is to save 
+The purpose of localstorage is to save data within a browser, even after the window to the corresponding browser has been closed. Localstorage is incredibly useful to a user, specifically when using it for the purpose of storing tasks that need to be done. The first half of the coding  has an event listener. The event listener is basically saying, when you (as the user), click the save button, it will actually 'click'. You can see an example below:
+
+![Click](./assets/images/click-console.png)
+
+Within the console, you can see that the user has clicked 'save' on the task, "Study JavaScript", twice, clicked 'save' on the empty box for the 10:00 am slot once, and then clicked 'save' on the 12:00 pm time slot, twice. 
+
+The second half of the coding shown above, is saving the keys and their values to the local storage, so that when the page is refreshed, whatever was in the textboxes will continue to be there. In order to check to make sure the local storage was correct, I utilized devTools, particularly the 'Application' section, and then went down to local storage. As you can see, key 9 has the value of 'Study JavaScript', and key 12, has the value 'Take a lunch break'.
+
+![LocalStorage-DevTools](./assets/images/localstorage-devTools.png)
+
