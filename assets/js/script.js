@@ -17,3 +17,14 @@ $("#14 .description").val(localStorage.getItem("14"));
 $("#15 .description").val(localStorage.getItem("15"));
 $("#16 .description").val(localStorage.getItem("16"));
 $("#17 .description").val(localStorage.getItem("17"));
+
+
+
+//Notes:
+//Have to compare the id's of each block, to moment.jscurrent hour (moment.hours)
+//Compare the id of each block to the hour, and then use a each loop, compare the id of each block to the hour, to say, 'if the block hour is less than the current time (moment.js), apply the class pass. If it's equal 
+
+// moment().hour();
+// var hours= ["9","10","11","12","13","14","15","16","17"];
+// console.log(hours.length);
+// for (var i=0; i<hours.length; i++){console.log("test")};
