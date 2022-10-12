@@ -21,6 +21,17 @@ $("#17 .description").val(localStorage.getItem("17"));
 
 
 //Notes:
+
+//var currentTime= parseInt(...) = 10
+//current hour - red
+//one before has to be grey
+//hour after has to be green
+//currentTime === 10
+//currentTime > 9
+//Need to use a for-loop
+
+
+
 //Have to compare the id's of each block, to moment.jscurrent hour (moment.hours)
 //Compare the id of each block to the hour, and then use a each loop, compare the id of each block to the hour, to say, 'if the block hour is less than the current time (moment.js), apply the class pass. If it's equal 
 
