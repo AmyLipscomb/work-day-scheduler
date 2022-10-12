@@ -38,3 +38,16 @@ The second half of the coding shown above, is saving the keys and their values t
 
 ![LocalStorage-DevTools](./assets/images/localstorage-devTools.png)
 
+While working on the work day scheduler, I made sure to save my work constantly, utilizing 'git push', and made sure that each time I made commits, each commit had descriptive messages. 
+
+<strong>Technologies Used</strong>	
+
+-	HTML 
+-	CSS
+-	VS Code
+-   JavaScript
+-   jQuery
+-   FontAwesome
+-   Moment.JS Library
+
+I hope you enjoyed viewing my work day scheduler, and learning about the process behind the coding!
